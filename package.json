@@ -4,28 +4,12 @@
   "description": "Discord Bot is a bot with which you can run your entire server! With no less than 400+ commands",
   "main": "./src/index.js",
   "scripts": {
-    "start": "node --max-old-space-size=1800 . --trace-warnings",
+    "start": "node --max-old-space-size=2800 . --trace-warnings",
     "add-dev": "node src/dev.js"
   },
   "engines": {
     "node": "18.x"
   },
-  "keywords": [
-    "Music",
-    "Moderation",
-    "Tickets",
-    "Radio",
-    "Games",
-    "Giveaways",
-    "Customisation",
-    "Economy",
-    "Leveling",
-    "Invites",
-    "Messages",
-    "Utilities",
-    "Suggestions",
-    "Server Stats"
-  ],
   "author": "CorwinDev",
   "license": "ISC",
   "dependencies": {
